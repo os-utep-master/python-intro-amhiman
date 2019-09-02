@@ -1,6 +1,11 @@
 # Aaron Himan
-# Into to Python Lab
+# CS 4375 Theory of Operating Systems
+# Intro to Python Lab
+# Based strongly off of the given code for the python-intro lab by Dr. Fruedenthaul, specifically
+# in the wordCountTest.py program. I also referenced python3 docs, mainly the re documentation
+# found at https://docs.python.org/3/library/re.html.
 
+# To run the program, run the command: python3 wordCount.py <input text file> <output text file>
 
 #! usr/env/ python3
 
@@ -21,7 +26,7 @@ if not os.path.exists(inputFileName):
 	print ("text file input %s doesn't exist! Exiting" % inputFileName)
 	exit()
 
-# make a master dictionary like countTest example
+# make a master dictionary like countTest example. words will be key, # of times will be val
 master = {}
 
 # read the text file to count
