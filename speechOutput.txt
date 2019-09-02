@@ -95,7 +95,7 @@ charter 2
 chosen 2
 circumstance 2
 circumstances 4
-citizens 4
+citizens 8
 civil 2
 collect 2
 command 2
@@ -170,6 +170,7 @@ dwell 2
 economy 2
 effective 2
 either 2
+eminence 2
 emoluments 2
 emotions 2
 employed 2
@@ -211,7 +212,7 @@ farther 2
 favour 2
 feelings 2
 felicity 2
-fellowcitizens 4
+fellow 4
 fervent 2
 fifth 2
 filled 2
@@ -415,9 +416,9 @@ possible 2
 power 2
 powers 2
 pray 2
+pre 2
 preceeding 2
 predilection 2
-preeminence 2
 prejudices 2
 presage 2
 present 10

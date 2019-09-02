@@ -33,6 +33,12 @@ with open(inputFileName, 'r') as inputFile:  # r is read only mode
 		# make all lowercase since case insensitive
 		line = line.lower()
 
+		# replace hypenated words to two words seperated **fixed hyphenated word errors
+		line = re.sub(r'-', ' ',line)
+
+		# replace apostraphe with two seperate words **fixed apostrophe errors
+		line = re.sub(r'\'', ' ', line)
+
 		# remove punctuation using re
 		line = re.sub(r'[^\w\s]','',line) # sub all not words or spaces
 
