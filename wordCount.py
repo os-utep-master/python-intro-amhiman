@@ -45,7 +45,7 @@ with open(inputFileName, 'r') as inputFile:  # r is read only mode
 		line = re.sub(r'\'', ' ', line)
 
 		# remove punctuation using re
-		line = re.sub(r'[^\w\s]','',line) # sub all not words or spaces
+		line = re.sub(r'[^\w]',' ',line) # sub all not words with spaces
 
 		# split line by white space or punctuation
 		words = re.split('[ \t]', line)
